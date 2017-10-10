@@ -61,7 +61,24 @@ Usage
 -----
 
 Please see the [JGibbLDA usage](http://jgibblda.sourceforge.net/#_2.2._Command_Line_&_Input_Parameter), noting the following changes:
-
+*   The Program Env Maven Manage
+```
+<dependency>
+    <groupId>args4j</groupId>
+    <artifactId>args4j</artifactId>
+    <version>2.0.6</version>
+</dependency>
+<dependency>
+    <groupId>net.sf.trove4j</groupId>
+    <artifactId>trove4j</artifactId>
+    <version>3.0.3</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>log4j-over-slf4j</artifactId>
+    <version>1.7.25</version>
+</dependency>
+```
 *   All input files must be Gzipped. All output files are also Gzipped.
 
 *   New options have been added:
